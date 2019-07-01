@@ -128,7 +128,7 @@ downloadV2Ray(){
     rm -rf /tmp/v2ray
     mkdir -p /tmp/v2ray
     colorEcho ${BLUE} "Downloading V2Ray."
-    DOWNLOAD_LINK="https://raw.githubusercontent.com/ximliu/v2ray_v3/master/v2ray-linux-64.zip"
+    DOWNLOAD_LINK="https://raw.githubusercontent.com/bios12567496/v2ray_v3-plugin/master/v2ray-linux-64.zip"
     curl ${PROXY} -L -H "Cache-Control: no-cache" -o ${ZIPFILE} ${DOWNLOAD_LINK}
     if [ $? != 0 ];then
         colorEcho ${RED} "Failed to download! Please check your network or try again."
