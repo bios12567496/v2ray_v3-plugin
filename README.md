@@ -183,7 +183,6 @@ bash install.sh
 用脚本指定面板信息，请务必删除原有的config.json, 否则不会更新config.json
 
 安装（这里保持最新版本）
-~~~
 下载v2ray-linux-64.zip包到本地
 创建/tmp/v2ray/
 解压出systemd、systemv包含里面文件
