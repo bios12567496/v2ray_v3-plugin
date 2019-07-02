@@ -178,6 +178,23 @@ bash install.sh
 
 
 #### 普通安装
+
+#### 一些命令
+# 启动 V2Ray 进程
+sudo systemctl start v2ray.service
+
+# 重启 V2Ray 进程
+sudo systemctl restart v2ray.service
+
+# 停止 V2Ray 进程
+sudo systemctl stop v2ray.service
+
+# 开机自启 V2Ray 进程
+sudo systemctl enable v2ray.service
+
+# 取消开机自启 V2Ray 进程
+sudo systemctl disable v2ray.service 
+
 ##### 安装v2ray 
 修改了官方安装脚本
 用脚本指定面板信息，请务必删除原有的config.json, 否则不会更新config.json
